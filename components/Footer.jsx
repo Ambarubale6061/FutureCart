@@ -9,10 +9,8 @@ const Footer = () => {
         <div className="w-4/5">
           <Image className="w-28 md:w-32" src={assets.logo} alt="logo" />
           <p className="mt-6 text-sm">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            QuickCart — Smart, secure, and superfast shopping experience!
+            Powered by Next.js for modern performance and reliability.
           </p>
         </div>
 
@@ -21,16 +19,24 @@ const Footer = () => {
             <h2 className="font-medium text-gray-900 mb-5">Company</h2>
             <ul className="text-sm space-y-2">
               <li>
-                <a className="hover:underline transition" href="#">Home</a>
+                <a className="hover:underline transition" href="#">
+                  Home
+                </a>
               </li>
               <li>
-                <a className="hover:underline transition" href="#">About us</a>
+                <a className="hover:underline transition" href="#">
+                  About us
+                </a>
               </li>
               <li>
-                <a className="hover:underline transition" href="#">Contact us</a>
+                <a className="hover:underline transition" href="#">
+                  Contact us
+                </a>
               </li>
               <li>
-                <a className="hover:underline transition" href="#">Privacy policy</a>
+                <a className="hover:underline transition" href="#">
+                  Privacy policy
+                </a>
               </li>
             </ul>
           </div>
@@ -40,14 +46,14 @@ const Footer = () => {
           <div>
             <h2 className="font-medium text-gray-900 mb-5">Get in touch</h2>
             <div className="text-sm space-y-2">
-              <p>+1-234-567-890</p>
-              <p>contact@greatstack.dev</p>
+              <p>+91-9579377966</p>
+              <p>ambarubale3333@gmail.com</p>
             </div>
           </div>
         </div>
       </div>
       <p className="py-4 text-center text-xs md:text-sm">
-        Copyright 2025 © GreatStack.dev All Right Reserved.
+        Copyright 2025 © Ambar Ubale All Right Reserved.
       </p>
     </footer>
   );

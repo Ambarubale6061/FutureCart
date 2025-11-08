@@ -9,17 +9,17 @@ const Footer = () => {
         <Image className="hidden md:block" src={assets.logo} alt="logo" />
         <div className="hidden md:block h-7 w-px bg-gray-500/60"></div>
         <p className="py-4 text-center text-xs md:text-sm text-gray-500">
-          Copyright 2025 © greatstack.dev All Right Reserved.
+          Copyright 2025 © Ambar Ubale All Right Reserved.
         </p>
       </div>
       <div className="flex items-center gap-3">
         <a href="#">
           <Image src={assets.facebook_icon} alt="facebook_icon" />
         </a>
-        <a href="#">
+        <a href="https://x.com/UbaleAmbar?t=uCdNYaYwqr5HEIKyg9zZDw&s=09">
           <Image src={assets.twitter_icon} alt="twitter_icon" />
         </a>
-        <a href="#">
+        <a href="https://www.instagram.com/ambar_ubale/">
           <Image src={assets.instagram_icon} alt="instagram_icon" />
         </a>
       </div>
